@@ -1,11 +1,16 @@
 Server-Side Web Scripting
     
     Java Servlet
-        - Objects that are intended to palay the role of server components in the client-server communication and is dynamic to Web Applications.
-        - It handles client requests.
+        - Objects that are intended to play the role of server components in the client-server communication and is dynamic to Web Applications.
+        - It handles client requests. It extends the capabilities of a server.
+	- History
+		- The Servlet1 specification was created by Pavni Diwanji and was finalized by June 1997.
+		- James Gosling first thought of servlets in the early days of Java, but the concept did not become a product until Sun shipped the Java Web Server product
+		- This was before what is now the Java Platform, Enterprise Edition was made into a specification.
+
         - JAVA EE 7
         
-        Package: 
+        Packages: 
             javax.servlet.Servlet
             javax.servlet.GenericServlet
             javax.servlet.http.httpServlet
@@ -35,11 +40,8 @@ Php
 	  used it more often. 
 	- In 1994, Rasmus Lerdorf unleashed the first version of PHP.
     - In order to run a PHP Web page, it needs three components; A Web Server, Database and a PHP parser.
-    - PHP:
-        has procedural features.
-        Offers object-oriented features.
-        Implements a header function.
-        
+    - PHP can perform system functions such as create, open, read and write on a database.
+    - It also can handle forms for example gathering of data and saving data into a file.       
     - Identified with delimiting tag "<?php  *code*  ?>"
     - 8 Data types in PHP:
         - boolean

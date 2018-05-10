@@ -1,0 +1,82 @@
+body{
+    margin-top:70px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: Poppins;
+}
+p{
+    font-family: Roboto;
+}
+.navbar-default{
+    background: #fff;
+    border: 0;
+    font-family: Poppins;
+}
+.navbar-brand{
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+}
+#php img{
+    width: 370PX;
+    height: 300px;
+}
+#php h1{
+    font-size:50px;
+    margin-bottom:20px;
+}
+#php btn{
+   
+}
+#bottom{
+    background: #f1f1f1;
+    padding: 50px 0 30px 0;
+    text-align:center;
+    margin-top:40px;
+}
+#bottom p{
+        
+}
+#javaserv img{
+    width: 370PX;
+    height: 300px;
+}
+#javaserv h1{
+    font-size:50px;
+    margin-bottom:60px;
+}
+#javaserv h2{
+    margin-top:50px;
+    
+}
+#javaserv btn{
+
+}
+#session img{
+    width: 370px;
+    height: 300px;
+}
+#session h1{
+    font-size:50px;
+    margin-bottom:20px;
+}
+#session h2{
+    margin-top: 60px;
+}
+#session btn{
+    
+}
+#node img{
+    width: 370px;
+    height: 300px;
+}
+#node h1{
+    font-size:50px;
+    margin-bottom:20px;
+}
+#node h2{
+    margin-top: 60px;
+}
+#node btn{
+    
+}

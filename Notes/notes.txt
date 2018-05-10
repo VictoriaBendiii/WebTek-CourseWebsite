@@ -28,13 +28,20 @@ Server-Side Web Scripting
 Php 
     - Stands for Hypertext Preprocessor
     - A server-side scripting language, which offers features that allow us to make dynamic and interactive web pages.
+    - is a programming language that allows web developers to create dynamic content that can interact with a database. 
+    - It can be integrated with a number of popular databases like MySQL.
+	HISTORY
+	- it started out just as a small source project that developed as to people discovered it and
+	  used it more often. 
+	- In 1994, Rasmus Lerdorf unleashed the first version of PHP.
+    - In order to run a PHP Web page, it needs three components; A Web Server, Database and a PHP parser.
     - PHP:
         has procedural features.
         Offers object-oriented features.
         Implements a header function.
         
     - Identified with delimiting tag "<?php  *code*  ?>"
-    - Data types in PHP:
+    - 8 Data types in PHP:
         - boolean
         - integer
         - float
@@ -43,7 +50,7 @@ Php
         - object
         - resource
         - null
-    - Printing 
+    - Printing - displaying of values
         echo
         print()
         printf()

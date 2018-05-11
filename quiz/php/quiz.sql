@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: May 11, 2018 at 03:48 PM
+-- Generation Time: May 10, 2018 at 03:32 PM
 -- Server version: 5.7.19
 -- PHP Version: 5.6.31
 
@@ -35,7 +35,7 @@ CREATE TABLE IF NOT EXISTS `choices` (
   `is_correct` tinyint(1) NOT NULL DEFAULT '0',
   `text` text NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=43 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `choices`
@@ -46,34 +46,10 @@ INSERT INTO `choices` (`id`, `question_number`, `is_correct`, `text`) VALUES
 (2, 1, 0, 'PHP: Private Home Page'),
 (3, 1, 0, 'PHP: Personal Homepage'),
 (4, 1, 0, 'PHP: Personal Hypertext Preprocessor\r\n'),
-(5, 2, 1, 'True'),
-(6, 2, 0, 'False'),
-(9, 3, 0, 'printf()'),
-(10, 3, 0, 'echo'),
-(11, 3, 0, 'print()'),
-(12, 3, 1, 'println()'),
-(13, 4, 1, 'True'),
-(14, 4, 0, 'False'),
-(15, 5, 0, 'True'),
-(16, 5, 1, 'False'),
-(17, 6, 0, 'Database, PHP Parser'),
-(18, 6, 0, 'Web Page, Database, HTML & PHP Parser'),
-(19, 6, 1, 'Web Server, Database, PHP Parser'),
-(20, 6, 0, 'Web Page, Database, PHP Parser'),
-(25, 7, 1, 'Rasmus Lerdorf'),
-(26, 7, 0, 'Tim Berners-Lee'),
-(27, 7, 0, 'W3C company'),
-(28, 7, 0, 'Haakon Wium Lie'),
-(29, 8, 0, 'TRUE'),
-(30, 8, 1, 'FALSE'),
-(35, 9, 0, '<php start> *code <end php>'),
-(36, 9, 0, '<php *code* />'),
-(37, 9, 1, '\"<?php  *code*  ?>\"'),
-(38, 9, 0, '<php> *code* </php>'),
-(39, 10, 0, '1 (one)'),
-(40, 10, 0, '5 (five)'),
-(41, 10, 0, '3 (three)'),
-(42, 10, 1, '8 (eight)');
+(5, 2, 0, 'This is not the answer'),
+(6, 2, 1, 'This is the answer'),
+(7, 2, 0, 'This is not the answer again'),
+(8, 2, 0, 'Still not the answer');
 
 -- --------------------------------------------------------
 
@@ -93,16 +69,8 @@ CREATE TABLE IF NOT EXISTS `questions` (
 --
 
 INSERT INTO `questions` (`question_number`, `text`) VALUES
-(1, 'What does PHP stand for?'),
-(2, 'A server-side scripting language, which offers features that allow us to make dynamic and interactive web pages.'),
-(3, 'It not part of the displaying of values under PHP syntax.'),
-(4, '=! is a conditional statement in PHP that can be use in negative comparison.'),
-(5, 'MySQLite can be integrated in PHP.'),
-(6, 'In order to run a PHP Web page, it needs three components;'),
-(7, 'He unleashed the first version of PHP in 1994.'),
-(8, 'PHP can perform system functions such as load, write and delete only on a database.'),
-(9, 'PHP uses a delimiting tag'),
-(10, 'What is the total data types in PHP?');
+(1, 'This is question number one'),
+(2, 'This is question two');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

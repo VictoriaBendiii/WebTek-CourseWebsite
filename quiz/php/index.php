@@ -33,7 +33,7 @@ $total =  mysqli_num_rows($results)
             <ul>
                 <li><strong>Number of questions: </strong><?php echo $total ?> </li>
                 <li><strong>Type: </strong> Multiple Choice</li>
-                <li><strong>Estimated Time:</strong><?php echo $total * 1.5; ?></li>
+                
             </ul>
             <a href="question.php?n=1" class="start">Start Quiz!</a>
         </div>

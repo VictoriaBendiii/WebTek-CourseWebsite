@@ -2,7 +2,17 @@
     border: 1px dotted black;
 
 }
-
+a{
+    text-decoration: none;
+}
+a.back {
+    display: inline-block;
+    color: #666;
+    background: #f4f4f4;
+    border: 1px dotted #666;
+    padding: 6px 13px;
+    align-content:center;
+}
 p.question {
     font-family: Arial, sans-serif;
     font-size: 20px;
@@ -93,6 +103,7 @@ td {}
     margin: auto;
 }
 
+
 .container {
     max-width: 500px;
     margin: auto;
@@ -107,6 +118,8 @@ media only screen and (max-width:960px) {
         width: 80%;
     }
 }
+
+
 
 /*SFS light red = #c30b0a;
 SFS dark red = #9f2026; */

@@ -95,10 +95,6 @@ p{
 }
 
 /* Javs */
-
-.container{
-    margin-top: 20px;
-}
 header {
     width: 100%;
     height: 10vh;
@@ -257,6 +253,3 @@ nav ul li a {
 }
 
 
-.navbar {
-    background-color: darkseagreen;
-}

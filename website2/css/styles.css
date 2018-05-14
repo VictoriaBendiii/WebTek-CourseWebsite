@@ -42,3 +42,15 @@ nav ul li {
     height:700px;
     overflow: auto;
 }
+
+/** quiz div **/
+.quiz-white {
+    padding: 4em;
+    background-color: white;
+
+}
+
+.quiz-white p {
+    color: black;
+    font-family: 'Anonymous Pro', monospace;
+}

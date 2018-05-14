@@ -6,6 +6,7 @@
         <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7CRoboto%7CJosefin+Sans:100,300,400,500" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"/>
         <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="style/style2.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -19,10 +20,9 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <meta name="viewport" content="width=device-width, initia-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
     </head>
     <body>
-        <!-- javs -->
+
         <div class="wrapper">
             <header>
                 <nav>
@@ -34,11 +34,10 @@
                     </div>
                     <div class="menu">
                         <ul>
-                            <li><a href="#lorem">Server-Side Web Scripting</a></li>
-                            <li><a href="#">PHP</a></li>
-                            <li><a href="#">Session Handling </a></li>
-                            <li><a href="#">Node.js</a></li>
-                            <li><a href="#">About Us</a></li>
+                            <li><a href="#javaserv">Server-Side Web Scripting</a></li>
+                            <li><a href="#php">PHP</a></li>
+                            <li><a href="#session">Session Handling </a></li>
+                            <li><a href="#node">Node.js</a></li>
                         </ul>
                     </div>
                 </nav>
@@ -71,26 +70,86 @@
                 <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
-        </div><!--- End Slider -->
+        </div>
 
-        <!-- cocs -->
         <section id="php">
             <div class="container">
                 <div class="row">
                     <div class="col -md-6 col-sm-6">
                         <div class="php-left">
-                            <img src="images/woodenphp1.jpg">
+                            <img src="images/phppic.png">
                         </div>
                     </div>
                     <div class="col -md-6 col-sm-6">
-                        <div class="php-right">
+                        <div class="php-right" >
                             <h1>PHP</h1>
-                            <p>- A server-side scripting language, which offers features that allow us to make dynamic and interactive web pages. </p>
+                            <p>- A server-side scripting language, which offers
+                              features that allow us to make dynamic and interactive web pages. </p>
                             <li>    Has procedural features. </li>
                             <li>    Offers object-oriented features. </li>
                             <li>    Implements a header function. </li>
                         </div>
-                        <a class="btn btn-default btn-lg php-btn">Read More</a>
+
+                        <button id="myBtn" class="butt">Read More about PHP</button>
+
+                        <!-- The Modal of PHP -->
+                        <div id="myModal" class="modal">
+                          <div class="modal-dialog" style="overflow-y: scroll; max-height:85%; width: 100%; margin-top:50px; margin-bottom:50px;">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                        <span id = "span" class="close" style="float:right;">&times;</span>
+                            <ul>
+                                <li><b>HISTORY</b></li>
+                                <ul>
+                                    <li>it started out just as a small source
+                                      project that developed as to people discovered it and
+                                      used it more often. </li>
+                                    <Li>In 1994, Rasmus Lerdorf unleashed the first version of PHP.</Li>
+                                </ul>
+                                <li> Stands for Hypertext Preprocessor</li>
+                                <li> A server-side scripting language, which offers
+                                    features that allow us to make dynamic and interactive web pages.</li>
+                                <li>is a programming language that allows web developers
+                                    to create dynamic content that can interact with a database. </li>
+                                <li>It can be integrated with a number of popular databases like MySQL.</li>
+                                <li>In order to run a PHP Web page, it needs three components;
+                                    A Web Server, Database and a PHP parser.</li>
+                                <li>PHP can perform system functions such as create, open, read and write on a database.</li>
+                                <li>It also can handle forms for example gathering of data and saving data into a file.</li>
+                                <li>Identified with delimiting tag "<code>&lt&ampphp  *code*  &amp&gt</code>"</li>
+                                <li> Data types of PHP</li>
+                                <ul>
+                                    <li>boolean</li>
+                                    <li>integer</li>
+                                    <li>float</li>
+                                    <li>string</li>
+                                    <li>array</li>
+                                    <li>object</li>
+                                    <li>resource</li>
+                                    <li>null</li>
+                                </ul>
+                                <Li>Printing - Displaying of Values</Li>
+                                <ul>
+                                  <li>echo - will output every value that follows.</li>
+                                  <li>print() - Can be used as a function unlike echo.</li>
+                                  <li>printf() - Can be used to print a group of variables that has strings.</li>
+                                </ul>
+
+                                <li>Conditional Statements</li>
+                                <P><code>
+                                    <P> < > = != ! && ||</P>
+                                    </code>
+                                </P>
+                          </ul>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
+
+
                     </div>
                 </div>
             </div>
@@ -100,22 +159,75 @@
             <div class="quotes">
                 <p class="line anim-typewriter">"The Internet is becoming the town square for the global village of tomorrow." -Bill Gates</p>
             </div>
-
         </section>
+                
         <section id="javaserv">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-sm-6">
                         <div class="javaserv-left">
-                            <img src="images/java-servlet.png">
-                        </div> 
+                            <img src="images/server.png">
+                        </div>
                     </div>
                     <div class="col-md-6 col-sm-6">
-                        <div class="javaserv-right">
+                        <div class="javaserv-right" id="ServerSide">
                             <h1>Server - Side Web Scripting</h1>
                             <p> Is a method used in web development which allows the developer to import scripts from a web server.</p>
                         </div>
-                        <a class="btn btn-default btn-lg javaserv-btn">Read More</a>
+
+                        <button id="myBtn1" class="butt">Read More about Server-side Web Scripting</button>
+
+                        <!-- The Modal of ServerSide-->
+                        <div id="myModal1" class="modal">
+                          <div class="modal-dialog" style="overflow-y: scroll; max-height:85%; width: 100%; margin-top:50px; margin-bottom:50px;">
+                          <!-- Modal content -->
+                          <div class="modal-content">
+                            <span id="span1" class="close">&times;</span>
+                              <ul>
+                                <li>Java Servlet </li>
+                                  <ul>
+                                    <li>Objects that are intended to palay the role of server components in the client-server communication and is dynamic to Web Applications. </li>
+                                    <li> It handles client requests.</li>
+                                    <li> JAVA EE 7</li>
+                                      <ul>
+
+                                        <li>Package:</li>
+                                          <ul>
+                                          <li>javax.servlet.Servlet</li>
+                                          <li>javax.servlet.GenericServlet</li>
+                                          <li>javax.servlet.http.httpServlet</li>
+                                          </ul>
+
+                                          <li> Life Cycle </li>
+                                            <ul>
+                                            <li>Initialization => init()</li>
+                                            <li>Request Handling => service()</li>
+                                            <li>doGet()</li>
+                                            <li>doPost()</li>
+                                            <li>Destruction => destroy()</li>
+
+                                          </ul>
+                                      </ul>
+
+                                  </ul>
+                                <li> HTTP Servlet </li>
+                                  <ul>
+                                  <li>Used to handle HTTP Requests & generate HTTP responses</li>
+                                  <li>Hosted in a Web Container</li>
+                                  </ul>
+                                <li> HTTP Servlet Response </li>
+                                  <ul>
+                                  <li>It is generated by the servlet & sent back to the requesting client</li>
+                                  </ul>
+                              </ul>
+
+                          </div>
+                        </div>
+                        </div>
+
+
+
+
 
                     </div>
                 </div>
@@ -133,16 +245,54 @@
                 <div class="row">
                     <div class="col-md-6 col-sm-6">
                         <div class="session-left">
-                            <img src="images/java-servlet.png">
-                        </div> 
+                            <img src="images/session.png">
+                        </div>
                     </div>
                     <div class="col-md-6 col-sm-6">
-                        <div class="session-right">
+                        <div class="session-right" id="Session">
                             <h2>Session Handling</h2>
                             <p>A session is a technique used to store data from users to be used for future activities of the user within the Web Application.</p>
                             <p>With the $_SESSION variable, Session handling is possible with PHP.</p>
                         </div>
-                        <a class="btn btn-default btn-lg session-btn">Read More</a>
+
+
+                            <!-- SESSION HANDLING -->
+                        <button id="myBtn2" class="butt">Read More about Session Handling</button>
+
+                    <!-- The Modal Session Handling-->
+                    <div id="myModal2" class="modal">
+                      <div class="modal-dialog" style="overflow-y: scroll; max-height:85%; width: 100%; margin-top:50px; margin-bottom:50px;">
+                      <!-- Modal content -->
+                      <div class="modal-content">
+                        <span id="span2" class="close">&times;</span>
+                          <ul>
+                          <li>A session is a technique used to store data from users to be used for future activities of the user within the Web Application.</li>
+                          <li>With the $_SESSION variable, Session handling is possible with PHP.</li>
+                          <li>Important functions in Session handling:</li>
+                              <ul>
+                              <li>session_start()</li>
+                              <li>isset() - Validation if the current session is running actively or not.</li>
+                              <li>unset() - to destroy the session.</li>
+                              </ul>
+                              <li> Web Application generates <I>Session IDs</I> </li>
+                            <li> Session IDs are generated after a user has logged in to the Web Application.</li>
+                              <LI> Session IDs are used for:</LI>
+                              <ul>
+                              <li> The web Application to keep track of the user's doings and activities. </li>
+                              <li> The web Application to identify the user. </li>
+                              <li> The web Application to keep the session of the user secure. </li>
+
+                              </ul>
+                              <li> Sessions IDs are very prone to attackers that is why itis very essential for the Web Application to secure this.</li>
+
+                          </ul>
+
+                      </div>
+
+                    </div>
+                  </div>
+
+
 
                     </div>
                 </div>
@@ -163,26 +313,86 @@
                 <div class="row">
                     <div class="col-md-6 col-sm-6">
                         <div class="node-left">
-                            <img src="images/java-servlet.png">
-                        </div> 
+                            <img src="images/node.png">
+                        </div>
                     </div>
                     <div class="col-md-6 col-sm-6">
-                        <div class="node-right">
+                        <div class="node-right" id="node">
                             <h2>Node.js</h2>
                             <p>it is a run-time environment for Javascript that is built on Google Chrome's v8 Javascript Engine</p>
 
                         </div>
-                        <a class="btn btn-default btn-lg node-btn">Read More</a>
+
+
+                        <button id="myBtn3" class="butt">Read More about Node.js</button>
+
+                    <!-- The Modal of the Node.js-->
+                    <div id="myModal3" class="modal">
+                      <div class="modal-dialog" style="overflow-y: scroll; max-height:85%; width: 100%; margin-top:50px; margin-bottom:50px;">
+                      <!-- Modal content -->
+                      <div class="modal-content">
+                        <span id="span3" class="close">&times;</span>
+                        </button>
+                          <ul>
+                          <li><b>HISTORY</b></li>
+                              <ul>
+                                <li>Node.js was created by Ryan Dahl</li>
+                                <li>It was produced back in May 27,2009</li>
+                              </ul>
+                          <li> it is a run-time environment for Javascript that is built on Google Chrome's v8 Javascript Engine</li>
+                          <li> The Node js interpreter "$node"</li>
+                          <li> Node.js uses JavaScript Code on the server-side to create a Dynamic web page.</li>
+                          <li> The node.js is open-source that can be a server.</li>
+                              <li> Node.js is using an asynchronous programming style.</li>
+                              <li> Node.js can create a Dynamic page content.</li>
+                          <li> Node.js has multiple built-in modules like:</li>
+                              <ul>
+                                  <li>http</li>
+                                  <li>https</li>
+                                  <li>net</li>
+                                  <lI>url </lI>
+                              </ul>
+                              <li> However, You can create your own module like below:</li>
+                              <li> <code> exports.myTime = function () {
+                                        return Time();
+                                            };</code></li>
+
+
+                          </ul>
+                      </div>
+
+                    </div>
+                  </div>
+
+
+
 
                     </div>
                 </div>
             </div>
         </section>
-        
+
+         <section id="bottomBrown">
+            <div class="quotes-brown">
+                <p class="line anim-typewriter">“Website without visitors is like a ship lost in the horizon.”
+                ― Dr. Christopher Dayagdag</p>
+            </div>
+        </section>
+
+        <br/>
+        <br/>
+        <section id="bottomWhite">
+            <div class="quiz-white">
+                <p class="line anim-typewriter">Test your knowledge, take a quiz!</p>
+            </div>
+
+        </section>
+
         <div class="navbar">
             <div class="container">
                 <p class="navbar-text pull-left">Copyright 2018. All rights reserved. Developed by Group 2.</p>
-                <a class="navbar-button btn-success btn pull-right">Take Quiz</a>
+                <a class="navbar-button btn-success btn pull-right" href="quiz/php/index.php">PHP Quiz</a>
+                <a class="navbar-button btn-success btn pull-right" href="quiz/javascript/index.html">JavaScript Quiz</a>
             </div>
         </div>
 
@@ -214,6 +424,12 @@
                 delay: 1000,
                 origin:'top',
                 distance:'300px'
+            });
+            sr.reveal('.quotes' ,{
+                duration: 2000,
+                origin:'right',
+                distance:'300px',
+                viewFactor: 0.5
             });
             sr.reveal('.javaserv-left' ,{
                 duration: 2000,
@@ -273,8 +489,20 @@
                 distance:'300px',
                 viewFactor: 0.5
             });
-
+            sr.reveal('.quotes-brown' ,{
+                duration: 2000,
+                origin:'left',
+                distance:'300px',
+                viewFactor: 0.5
+            });
         </script>
+        <script type="text/javascript">
+    $(function(){
+        $(".write").typed({
+            typeSpeed: 1,
+        });
+    });
+       </script>
 
         <script type="text/javascript">
 
@@ -283,7 +511,7 @@
             $(document).ready(function() {
                 $(".menu-icon").on("click", function() {
                     $("nav ul").toggleClass("showing");
-                });  
+                });
             });
 
             //Scrolling Effect
@@ -314,6 +542,54 @@
         </script>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script src="js/bootstrap.js"></script>
+
+
+
+                            <script>
+
+                          var modal = document.getElementById('myModal');
+                          var modal1 = document.getElementById('myModal1');
+                          var modal2 = document.getElementById('myModal2');
+                          var modal3 = document.getElementById('myModal3');
+
+                          var btn = document.getElementById("myBtn");
+                          var btn1 = document.getElementById("myBtn1");
+                          var btn2 = document.getElementById("myBtn2");
+                          var btn3 = document.getElementById("myBtn3");
+
+                          var span = document.getElementsByClassName("close")[0];
+                          var span1 = document.getElementsByClassName("close")[1];
+                          var span2 = document.getElementsByClassName("close")[2];
+                          var span3 = document.getElementsByClassName("close")[3];
+
+                          btn.onclick = function() {
+                            modal.style.display = "block";
+                          }
+                          btn1.onclick = function() {
+                            modal1.style.display = "block";
+                          }
+                          btn2.onclick = function() {
+                            modal2.style.display = "block";
+                          }
+                          btn3.onclick = function() {
+                            modal3.style.display = "block";
+                          }
+
+                          span.onclick = function() {
+                            modal.style.display = "none";
+                          }
+                          span1.onclick = function() {
+                            modal1.style.display = "none";
+                          }
+                          span2.onclick = function() {
+                            modal2.style.display = "none";
+                          }
+                          span3.onclick = function() {
+                            modal3.style.display = "none";
+                          }
+
+                          </script>
+
 
     </body>
 </html>
